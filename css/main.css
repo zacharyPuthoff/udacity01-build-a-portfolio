@@ -1,5 +1,10 @@
-img, obj, video {
+img, obj, video, embed {
   max-width: 100%;
+}
+
+body {
+  font-family: 'Mukta Mahee', sans-serif;
+  color: #2d3c49;
 }
 
 /* this defines the boxes within the header section */
@@ -9,57 +14,86 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin: 1em 0 0 0;
 }
 
 #logo {
-  width: 15%;
-  max-width: 72px;
-  margin: 8px;
+  width: 48px;
+  margin: 12px 0 0 12px;
 }
 
-#myinformation { }
+#myinformation {
+  justify-content: center;
+  align-content: center;
+}
 
 #name {
-  margin: 2px;
-  font-size: 1.5em;
+  margin: 2px 12px 0px 2px;
+  font-size: 20px;
   text-align: right;
+  line-height: 1.2em;
+
 }
 
 #title {
-  margin: 2px;
-  font-size: 0.75em;
+  margin: 0px 12px 2px 2px;
+  font-size: 16px;
   text-align: right;
+  line-height: 1.2em;
+  color: #7d97ad;
+}
+/* this defines the big splash picture */
+
+hr {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(45,60,73, 0), rgba(45,60,73, 0.95), rgba(45,60,73, 0));
 }
 
-/* this defines the big project box */
+/* background-color: #02b3e4; */
 
-#big-project {
+#splashpic {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
-#splashpic {
-  align-self: center;
-  width: 98%;
+#splashpic img {
+  width: 95%;
+  height: 100%;
 }
+
 
 /* this defines the project boxes */
-
-#featured-projects-header {
-  font-size: 1em;
-}
 
 #featured-projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0.25em;
 }
 
-.projects {
-  width: 95%;
+#featured-projects-header {
+  font-size: 16px;
+  margin: 0.5em;
+  width: 96%
 }
 
-figcaption {
-  font-size: 0.75em;
+#featured-projects figure {
+  width: 80%;
+  margin: 0.5em;
+}
+
+figure img {
+  box-shadow: 0px 10px 2px -6px #7d97ad;
+}
+
+figure img, figcaption {
+  width: 100%;
+  margin: 0em;
+  font-size: 18px;
+  vertical-align: middle;
   text-align: center;
+  line-height: 1.8em;
 }
