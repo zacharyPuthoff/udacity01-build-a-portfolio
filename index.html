@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zachary Puthoff, Front End Web Developer</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" media="screen and (min-width: 500px)" href="css/over500.css">
-    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/over1000.css">
+    <link rel="stylesheet" media="screen and (max-width: 300px)" href="css/below300.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 450px)" href="css/over500.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/over1000.css"> -->
   </head>
 
   <body>
 
     <header>
-      <img src="img/udacity.svg" alt="Udacity" width="48px">
-      <h1 id="myname">Zachary Puthoff</h1>
-      <h2 id="mytitle">Front End Ninja</h2>
-      <hr>
+      <section id="logo">
+        <img src="img/udacity.svg" alt="Udacity">
+      </section>
+      <section id="myinformation">
+        <p id="name">Zachary Puthoff</p>
+        <p id="title">Front End Ninja</p>
+      </section>
     </header>
 
-    <section id="mywork_showcase">
-      <img id="splashpic" src="img/splashpic.svg" alt="An awesome picture lives here!">
+    <hr>
+
+    <section id="big-project">
+      <section id="splashpic">
+        <img src="img/splashpic.svg" alt="An awesome picture lives here!">
+      </section>
     </section>
 
-    <section id="mywork_projects">
-      <h3>Featured Work</h3>
+    <section id="featured-projects">
+      <p id="featured-projects-header">Featured Work</p>
 
       <figure id="project01" class="projects">
         <img src="img/project01.svg" alt="">

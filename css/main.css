@@ -1,3 +1,65 @@
-body {
-  background-color: green;
+img, obj, video {
+  max-width: 100%;
+}
+
+/* this defines the boxes within the header section */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 15%;
+  max-width: 72px;
+  margin: 8px;
+}
+
+#myinformation { }
+
+#name {
+  margin: 2px;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+#title {
+  margin: 2px;
+  font-size: 0.75em;
+  text-align: right;
+}
+
+/* this defines the big project box */
+
+#big-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#splashpic {
+  align-self: center;
+  width: 98%;
+}
+
+/* this defines the project boxes */
+
+#featured-projects-header {
+  font-size: 1em;
+}
+
+#featured-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects {
+  width: 95%;
+}
+
+figcaption {
+  font-size: 0.75em;
+  text-align: center;
 }
