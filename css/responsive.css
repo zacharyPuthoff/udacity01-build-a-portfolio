@@ -1,94 +1,114 @@
-/* minor break point */
+/* minor break point; no separate media query needed here; this styling */
+/* applies when the sheet is first called at min-width: 400px */
+
 #name {
   font-size: 22px;
 }
-#title, #featured-projects-header {
+
+#title, #project-collection-header {
   font-size: 18px;
 }
-figure figcaption {
+
+.project-title {
   font-size: 20px;
 }
 
+.project-description {
+  font-size: 16px;
+}
+
 /* major break point #1 */
+
 @media screen and (min-width: 500px) {
-  #logo {
+  #logo-box {
     width: 60px;
   }
   #name {
     font-size: 24px;
   }
-  #title, #featured-projects-header {
+  #title, #project-collection-header {
     font-size: 20px;
   }
-  figure figcaption {
+  .project-box {
+    width: 40%;
+  }
+  .project-title {
     font-size: 22px;
   }
-  #featured-projects figure {
-    width: 40%;
+  .project-description {
+    font-size: 18px;
   }
 }
 
 /* minor break point */
+
 @media screen and (min-width: 700px) {
   #name {
     font-size: 26px
   }
-  #title, #featured-projects-header {
+  #title, #project-collection-header {
     font-size: 22px;
   }
-  figure figcaption {
+  .project-title {
     font-size: 24px;
+  }
+  .project-description {
+    font-size: 20px;
   }
 }
 
 /* major break point #2 */
+
 @media screen and (min-width: 850px) {
-  #logo {
+  #logo-box {
     width: 72px;
   }
   #name {
     font-size: 28px;
   }
-  #title, #featured-projects-header {
+  #title, #project-collection-header {
     font-size: 24px;
   }
-  figure figcaption {
-    font-size: 26px;
-  }
-  #featured-projects figure {
+  .project-box {
     width: 30%;
+  }
+  .project-title {
+    font-size: 26px;
   }
 }
 
 /* minor break point */
+
 @media screen and (min-width: 1050px) {
   #name {
     font-size: 30px;
   }
-  #title, #featured-projects-header {
+  #title, #project-collection-header {
     font-size: 26px;
   }
-  figure figcaption {
+  .project-title {
     font-size: 28px;
   }
 }
 
 /* major break point #3 */
+
 @media screen and (min-width: 1280px) {
-  #logo {
+  #logo-box {
     width: 84px;
-  }
-  #name {
-    font-size: 32px;
-  }
-  #title, #featured-projects-header {
-    font-size: 28px;
-  }
-  figure figcaption {
-    font-size: 30px;
   }
   body {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
   }
+  #name {
+    font-size: 32px;
+  }
+  #title, #project-collection-header {
+    font-size: 28px;
+  }
+  .project-title {
+    font-size: 30px;
+  }
+}

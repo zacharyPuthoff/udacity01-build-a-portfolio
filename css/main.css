@@ -3,97 +3,106 @@ img, obj, video, embed {
 }
 
 body {
-  font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Carrois Gothic SC', sans-serif;
   color: #2d3c49;
 }
 
-/* this defines the boxes within the header section */
+/* this defines the behavior and style of the header and it's content */
 
 header {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
-  margin: 1em 0 0 0;
+  margin: 32px 0 0 0;
 }
 
-#logo {
+#logo-box {
+  align-self: flex-start;
+  margin: 0 0 0 1%;
   width: 48px;
-  margin: 12px 0 0 12px;
 }
 
-#myinformation {
-  justify-content: center;
-  align-content: center;
+#logo-icon {
+  width: 100%;
+}
+
+#name-title-box {
+  align-self: flex-start;
+  margin: 0 1% 0 0;
 }
 
 #name {
-  margin: 2px 12px 0px 2px;
-  font-size: 20px;
   text-align: right;
+  font-size: 20px;
   line-height: 1.2em;
-
+  margin: 0;
 }
 
 #title {
-  margin: 0px 12px 2px 2px;
-  font-size: 16px;
   text-align: right;
+  font-size: 16px;
   line-height: 1.2em;
   color: #7d97ad;
-}
-/* this defines the big splash picture */
-
-hr {
-  border: 0;
-  height: 1.5px;
-  background-image: linear-gradient(to right, rgba(45,60,73, 0), rgba(45,60,73, 0.95), rgba(45,60,73, 0));
+  margin: 0;
 }
 
-/* background-color: #02b3e4; */
+/* this defines the splash picture area and it's behavior */
 
-#splashpic {
+#splash-box {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-#splashpic img {
+#splash-pic {
   width: 95%;
-  height: 100%;
 }
 
+.splash-border-bar {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(45, 60, 73, 0), rgba(45, 60, 73, 0.95), rgba(45, 60, 73, 0));
+}
 
-/* this defines the project boxes */
+/* this defines the project boxes and their behavior */
 
-#featured-projects {
+#project-collection-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
-  margin: 0.25em;
 }
 
-#featured-projects-header {
+#project-collection-header {
   font-size: 16px;
   margin: 0.5em;
-  width: 96%
+  width: 95%;
 }
 
-#featured-projects figure {
+.project-box {
   width: 80%;
   margin: 0.5em;
 }
 
-figure img {
+.project-img {
+  width: 100%;
+  margin: 0em;
   box-shadow: 0px 10px 2px -6px #7d97ad;
 }
 
-figure img, figcaption {
+.project-title {
   width: 100%;
-  margin: 0em;
+  margin: 0.4em 0 0 0;
   font-size: 18px;
-  vertical-align: middle;
   text-align: center;
-  line-height: 1.8em;
+  line-height: 1.6em;
+}
+.project-description {
+  width: 100%;
+  margin: 0 0 1em 0;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
