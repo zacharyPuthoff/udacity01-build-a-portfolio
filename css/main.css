@@ -1,3 +1,5 @@
+/* setting some general style for the page overall */
+
 img, obj, video, embed {
   max-width: 100%;
 }
@@ -13,7 +15,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 32px 0 0 0;
+  margin: 24px 0 0 0;
 }
 
 #logo-box {
@@ -49,14 +51,30 @@ header {
 /* this defines the splash picture area and it's behavior */
 
 #splash-box {
+  position: relative;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #splash-pic {
-  width: 95%;
+  position: relative;
+  vertical-align: bottom;
+  display: block;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#overlay-text {
+  position: absolute;
+  bottom: 0px;
+  left: 1%;
+  right: 1%;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 5% 10px 5%;
+  text-align: center;
 }
 
 .splash-border-bar {
@@ -71,7 +89,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end;
+  align-items: baseline;
 }
 
 #project-collection-header {
@@ -81,7 +99,7 @@ header {
 }
 
 .project-box {
-  width: 80%;
+  width: 85%;
   margin: 0.5em;
 }
 
@@ -93,14 +111,15 @@ header {
 
 .project-title {
   width: 100%;
-  margin: 0.4em 0 0 0;
+  margin: 0.4em auto 0 auto;
   font-size: 18px;
   text-align: center;
   line-height: 1.6em;
 }
+
 .project-description {
-  width: 100%;
-  margin: 0 0 1em 0;
+  width: 90%;
+  margin: 0 auto 1em auto;
   font-size: 14px;
   text-align: center;
   line-height: 1em;

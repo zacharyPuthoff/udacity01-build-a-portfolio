@@ -5,16 +5,20 @@
   font-size: 22px;
 }
 
-#title, #project-collection-header {
+#title {
   font-size: 18px;
 }
 
-.project-title {
+.project-title, #project-collection-header {
   font-size: 20px;
 }
 
 .project-description {
   font-size: 16px;
+}
+
+#overlay-text {
+  font-size: 15px;
 }
 
 /* major break point #1 */
@@ -26,17 +30,20 @@
   #name {
     font-size: 24px;
   }
-  #title, #project-collection-header {
+  #title {
     font-size: 20px;
   }
   .project-box {
     width: 40%;
   }
-  .project-title {
+  .project-title, #project-collection-header {
     font-size: 22px;
   }
   .project-description {
     font-size: 18px;
+  }
+  #overlay-text {
+    font-size: 16px;
   }
 }
 
@@ -46,10 +53,10 @@
   #name {
     font-size: 26px
   }
-  #title, #project-collection-header {
+  #title {
     font-size: 22px;
   }
-  .project-title {
+  .project-title, #project-collection-header {
     font-size: 24px;
   }
   .project-description {
@@ -66,13 +73,13 @@
   #name {
     font-size: 28px;
   }
-  #title, #project-collection-header {
+  #title {
     font-size: 24px;
   }
   .project-box {
     width: 30%;
   }
-  .project-title {
+  .project-title, #project-collection-header {
     font-size: 26px;
   }
 }
@@ -83,10 +90,10 @@
   #name {
     font-size: 30px;
   }
-  #title, #project-collection-header {
+  #title {
     font-size: 26px;
   }
-  .project-title {
+  .project-title, #project-collection-header {
     font-size: 28px;
   }
 }
@@ -105,10 +112,10 @@
   #name {
     font-size: 32px;
   }
-  #title, #project-collection-header {
+  #title {
     font-size: 28px;
   }
-  .project-title {
+  .project-title, #project-collection-header {
     font-size: 30px;
   }
 }
