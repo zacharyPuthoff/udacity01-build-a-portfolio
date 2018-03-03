@@ -17,13 +17,13 @@
   font-size: 16px;
 }
 
-#overlay-text {
+#splash-box span {
   font-size: 15px;
 }
 
 /* major break point #1 */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) {
   #logo-box {
     width: 60px;
   }
@@ -42,7 +42,7 @@
   .project-description {
     font-size: 18px;
   }
-  #overlay-text {
+  #splash-box span {
     font-size: 16px;
   }
 }
@@ -101,13 +101,13 @@
 /* major break point #3 */
 
 @media screen and (min-width: 1280px) {
-  #logo-box {
-    width: 84px;
-  }
   body {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+  }
+  #logo-box {
+    width: 84px;
   }
   #name {
     font-size: 32px;
