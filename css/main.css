@@ -1,11 +1,14 @@
 /* setting some general style for the page overall */
 
-img, obj, video, embed {
+img,
+obj,
+video,
+embed {
   max-width: 100%;
 }
 
 body {
-  font-family: 'Carrois Gothic SC', sans-serif;
+  font-family: "Carrois Gothic SC", sans-serif;
   color: #2d3c49;
 }
 
@@ -66,15 +69,14 @@ header {
 
 #splash-box span {
   position: absolute;
-  bottom: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
   left: 1%;
   right: 1%;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  background: rgba(0, 0, 0, 0.7);
   padding: 10px 5% 10px 5%;
   text-align: center;
+  font: 14px "Open Sans", sans-serif;
+  color: white;
 }
 
 .splash-border-bar {

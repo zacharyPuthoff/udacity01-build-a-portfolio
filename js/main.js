@@ -1,6 +1,6 @@
 // This uses an idea I read about called Low Quality Image Placeholders (LQIP);
 // the concept is to load the page initially with very small svg image files
-// and once the page is loaded, then replace the low quality svg's with higher
+// and once the page is loaded, then replace the low quality svgs with higher a
 // resolution jpg, or whatever the final, larger picture is; this allows the
 // user to interact with the page without having to wait for some large images
 // to load, but still ultimately gets those images into the site; the function
@@ -10,7 +10,7 @@
 function imageUpRes() {
   // This section iterates the src of the img, with each successive svg
   // containing a larger number of polygons to approximate the underlying
-  // picture; the original jpg was process with the Primitive protocol written
+  // picture; the original jpg was processed with the Primitive protocol written
   // by Michael Fogleman (https://github.com/fogleman/primitive)
   setTimeout(function() {
     document.getElementById("splash-img").src = "img/fencing-polygons-100.svg";

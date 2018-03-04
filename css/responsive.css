@@ -27,21 +27,27 @@
   #logo-box {
     width: 60px;
   }
+
   #name {
     font-size: 24px;
   }
+
   #title {
     font-size: 20px;
   }
+
   .project-box {
     width: 40%;
   }
+
   .project-title, #project-collection-header {
     font-size: 22px;
   }
+
   .project-description {
     font-size: 18px;
   }
+
   #splash-box span {
     font-size: 16px;
   }
@@ -53,12 +59,15 @@
   #name {
     font-size: 26px
   }
+
   #title {
     font-size: 22px;
   }
+
   .project-title, #project-collection-header {
     font-size: 24px;
   }
+
   .project-description {
     font-size: 20px;
   }
@@ -70,15 +79,19 @@
   #logo-box {
     width: 72px;
   }
+
   #name {
     font-size: 28px;
   }
+
   #title {
     font-size: 24px;
   }
+
   .project-box {
     width: 30%;
   }
+
   .project-title, #project-collection-header {
     font-size: 26px;
   }
@@ -90,9 +103,11 @@
   #name {
     font-size: 30px;
   }
+
   #title {
     font-size: 26px;
   }
+
   .project-title, #project-collection-header {
     font-size: 28px;
   }
@@ -106,15 +121,19 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   #logo-box {
     width: 84px;
   }
+
   #name {
     font-size: 32px;
   }
+
   #title {
     font-size: 28px;
   }
+  
   .project-title, #project-collection-header {
     font-size: 30px;
   }
