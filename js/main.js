@@ -28,17 +28,17 @@ function imageUpRes() {
   // faded in, giving a nice affect using just a bit of simple javascript and css
   setTimeout(function() {
     for (var i = 0; i < 3; i++) {
-      document.getElementsByClassName("project-imgs")[i].style.transition = "opacity 1s ease";
+      document.getElementsByClassName("project-imgs")[i].style.transition = "opacity 2s ease";
       document.getElementsByClassName("project-imgs")[i].style.opacity = "0";
     }
   }, 2000);
   setTimeout(function() {
     for (var i = 0; i < 3; i++) {
-      document.getElementsByClassName("project-imgs")[i].style.transition = "opacity 0.5s ease";
+      document.getElementsByClassName("project-imgs")[i].style.transition = "opacity 1s ease";
       document.getElementsByClassName("project-imgs")[i].style.opacity = "1";
     }
     document.getElementById("project-01-img").src = "img/JamesBaldwin.jpg";
     document.getElementById("project-02-img").src = "img/RFK.jpg";
     document.getElementById("project-03-img").src = "img/MuhammadAli.jpg";
-  }, 2500);
+  }, 3000);
 }
