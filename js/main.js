@@ -37,8 +37,8 @@ function imageUpRes() {
       document.getElementsByClassName("project-imgs")[i].style.transition = "opacity 0.5s ease";
       document.getElementsByClassName("project-imgs")[i].style.opacity = "1";
     }
-    document.getElementById("project-01-img").src = "img/James Baldwin.jpg";
+    document.getElementById("project-01-img").src = "img/JamesBaldwin.jpg";
     document.getElementById("project-02-img").src = "img/RFK.jpg";
-    document.getElementById("project-03-img").src = "img/Muhammad Ali.jpg";
+    document.getElementById("project-03-img").src = "img/MuhammadAli.jpg";
   }, 2500);
 }
